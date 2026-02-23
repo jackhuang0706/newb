@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fijjj&#39;s Lazy Life</title>
-    <link>https://jackhuang0706.github.io/newb/tags/</link>
+    <link>http://localhost:1313/newb/tags/</link>
     <description>Recent content in Tags on Fijjj&#39;s Lazy Life</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jackhuang0706.github.io/newb/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/newb/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binary Indexed Tree</title>
-      <link>https://jackhuang0706.github.io/newb/tags/binary-indexed-tree/</link>
+      <link>http://localhost:1313/newb/tags/binary-indexed-tree/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/binary-indexed-tree/</guid>
+      <guid>http://localhost:1313/newb/tags/binary-indexed-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>LeetCode</title>
-      <link>https://jackhuang0706.github.io/newb/tags/leetcode/</link>
+      <link>http://localhost:1313/newb/tags/leetcode/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/leetcode/</guid>
+      <guid>http://localhost:1313/newb/tags/leetcode/</guid>
       <description></description>
     </item>
     <item>
       <title>Binary Search</title>
-      <link>https://jackhuang0706.github.io/newb/tags/binary-search/</link>
+      <link>http://localhost:1313/newb/tags/binary-search/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/binary-search/</guid>
+      <guid>http://localhost:1313/newb/tags/binary-search/</guid>
       <description></description>
     </item>
     <item>
       <title>Lazy Propagation</title>
-      <link>https://jackhuang0706.github.io/newb/tags/lazy-propagation/</link>
+      <link>http://localhost:1313/newb/tags/lazy-propagation/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/lazy-propagation/</guid>
+      <guid>http://localhost:1313/newb/tags/lazy-propagation/</guid>
       <description></description>
     </item>
     <item>
       <title>Segment Tree</title>
-      <link>https://jackhuang0706.github.io/newb/tags/segment-tree/</link>
+      <link>http://localhost:1313/newb/tags/segment-tree/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/segment-tree/</guid>
+      <guid>http://localhost:1313/newb/tags/segment-tree/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitmask DP</title>
-      <link>https://jackhuang0706.github.io/newb/tags/bitmask-dp/</link>
+      <link>http://localhost:1313/newb/tags/bitmask-dp/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/tags/bitmask-dp/</guid>
+      <guid>http://localhost:1313/newb/tags/bitmask-dp/</guid>
       <description></description>
     </item>
   </channel>

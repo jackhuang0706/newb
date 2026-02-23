@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LeetCode on Fijjj&#39;s Lazy Life</title>
-    <link>https://jackhuang0706.github.io/newb/tags/leetcode/</link>
+    <link>http://localhost:1313/newb/tags/leetcode/</link>
     <description>Recent content in LeetCode on Fijjj&#39;s Lazy Life</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jackhuang0706.github.io/newb/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/newb/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 315. Count of Smaller Numbers After Self</title>
-      <link>https://jackhuang0706.github.io/newb/posts/leetcode-315/</link>
+      <link>http://localhost:1313/newb/posts/leetcode-315/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/posts/leetcode-315/</guid>
+      <guid>http://localhost:1313/newb/posts/leetcode-315/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rating: N/A&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&#xA;  &lt;a class=&#34;heading-anchor&#34; href=&#34;#solution&#34; aria-label=&#34;Copy link to this section&#34;&gt;&#xA;    &lt;svg viewBox=&#34;0 0 1024 1024&#34; width=&#34;18&#34; height=&#34;18&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;path d=&#34;M633.417143 429.007238a174.567619 174.567619 0 0 1 0 246.857143l-155.306667 155.306667a186.709333 186.709333 0 1 1-264.045714-264.045715l76.483048-76.507428 51.73638 51.736381-76.507428 76.507428a113.566476 113.566476 0 1 0 160.597333 160.597334l155.306667-155.306667a101.424762 101.424762 0 0 0 0-143.408762z m208.603428-225.816381a186.709333 186.709333 0 0 1 0 264.045714L765.561905 543.744l-51.736381-51.712 76.507428-76.507429a113.566476 113.566476 0 1 0-160.597333-160.597333l-155.306667 155.306667a101.424762 101.424762 0 0 0 0 143.408762l-51.736381 51.736381a174.567619 174.567619 0 0 1 0-246.857143l155.306667-155.306667a186.709333 186.709333 0 0 1 264.045714 0z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;這題需要用到 BIT(Fenwick Tree) 的資料結構來解決。首先先判斷 BIT 要存什麼東西的前綴，考慮到題目所求的是&lt;strong&gt;該數字右邊有幾個比它小的數字&lt;/strong&gt;，因此用 BIT 存每個數字出現的次數，並透過離散化把數字計算到一個數列中，再求前綴。因為 input 有負數的關係，因此處理上把所有數字都加上數列中的最小值加 1，這樣可以保證所有數字都是正數，在 BIT 的處理上才不會出現 index out of range。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 3116. Kth Smallest Amount With Single Denomination Combination</title>
-      <link>https://jackhuang0706.github.io/newb/posts/leetcode-3116/</link>
+      <link>http://localhost:1313/newb/posts/leetcode-3116/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/posts/leetcode-3116/</guid>
+      <guid>http://localhost:1313/newb/posts/leetcode-3116/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rating: 2387&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&#xA;  &lt;a class=&#34;heading-anchor&#34; href=&#34;#solution&#34; aria-label=&#34;Copy link to this section&#34;&gt;&#xA;    &lt;svg viewBox=&#34;0 0 1024 1024&#34; width=&#34;18&#34; height=&#34;18&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;path d=&#34;M633.417143 429.007238a174.567619 174.567619 0 0 1 0 246.857143l-155.306667 155.306667a186.709333 186.709333 0 1 1-264.045714-264.045715l76.483048-76.507428 51.73638 51.736381-76.507428 76.507428a113.566476 113.566476 0 1 0 160.597333 160.597334l155.306667-155.306667a101.424762 101.424762 0 0 0 0-143.408762z m208.603428-225.816381a186.709333 186.709333 0 0 1 0 264.045714L765.561905 543.744l-51.736381-51.712 76.507428-76.507429a113.566476 113.566476 0 1 0-160.597333-160.597333l-155.306667 155.306667a101.424762 101.424762 0 0 0 0 143.408762l-51.736381 51.736381a174.567619 174.567619 0 0 1 0-246.857143l155.306667-155.306667a186.709333 186.709333 0 0 1 264.045714 0z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;這題因為 &lt;code&gt;coins&lt;/code&gt; 的數量和面額都很小，所以我一開始想先計算所有數字的 LCM，然後把一個 LCM 範圍內有多少個數算出來，再對 &lt;code&gt;k&lt;/code&gt; 做模運算，最後剩下的餘數用 min-heap 模擬加上去的過程解決，但最後結果是 TLE。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 3721. Longest Balanced Subarray II</title>
-      <link>https://jackhuang0706.github.io/newb/posts/leetcode-3721/</link>
+      <link>http://localhost:1313/newb/posts/leetcode-3721/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/posts/leetcode-3721/</guid>
+      <guid>http://localhost:1313/newb/posts/leetcode-3721/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-balanced-subarray-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rating: 2723&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&#xA;  &lt;a class=&#34;heading-anchor&#34; href=&#34;#solution&#34; aria-label=&#34;Copy link to this section&#34;&gt;&#xA;    &lt;svg viewBox=&#34;0 0 1024 1024&#34; width=&#34;18&#34; height=&#34;18&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;path d=&#34;M633.417143 429.007238a174.567619 174.567619 0 0 1 0 246.857143l-155.306667 155.306667a186.709333 186.709333 0 1 1-264.045714-264.045715l76.483048-76.507428 51.73638 51.736381-76.507428 76.507428a113.566476 113.566476 0 1 0 160.597333 160.597334l155.306667-155.306667a101.424762 101.424762 0 0 0 0-143.408762z m208.603428-225.816381a186.709333 186.709333 0 0 1 0 264.045714L765.561905 543.744l-51.736381-51.712 76.507428-76.507429a113.566476 113.566476 0 1 0-160.597333-160.597333l-155.306667 155.306667a101.424762 101.424762 0 0 0 0 143.408762l-51.736381 51.736381a174.567619 174.567619 0 0 1 0-246.857143l155.306667-155.306667a186.709333 186.709333 0 0 1 264.045714 0z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;首先先考慮所有以第 0 個元素開始的 subarray，可以發現只要用奇偶性前綴和，並且過濾掉所有重複的元素，那最長子陣列的右端就會是&lt;strong&gt;最右邊的 0 出現的 index&lt;/strong&gt;。舉例來說，若 &lt;code&gt;nums = [3,2,2,5,4]&lt;/code&gt;，則奇偶前綴和是 &lt;code&gt;[1,0,0,1,0]&lt;/code&gt;，可以發現最右邊的 0 在 index 4，因此最長子陣列長度會是 5。&lt;/p&gt;</description>
     </item>
     <item>
       <title>LeetCode 1681. Minimum Incompatibility</title>
-      <link>https://jackhuang0706.github.io/newb/posts/leetcode-1681/</link>
+      <link>http://localhost:1313/newb/posts/leetcode-1681/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://jackhuang0706.github.io/newb/posts/leetcode-1681/</guid>
+      <guid>http://localhost:1313/newb/posts/leetcode-1681/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://leetcode.com/problems/minimum-incompatibility/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rating: 2389&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&#xA;  &lt;a class=&#34;heading-anchor&#34; href=&#34;#solution&#34; aria-label=&#34;Copy link to this section&#34;&gt;&#xA;    &lt;svg viewBox=&#34;0 0 1024 1024&#34; width=&#34;18&#34; height=&#34;18&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&#xA;      &lt;path d=&#34;M633.417143 429.007238a174.567619 174.567619 0 0 1 0 246.857143l-155.306667 155.306667a186.709333 186.709333 0 1 1-264.045714-264.045715l76.483048-76.507428 51.73638 51.736381-76.507428 76.507428a113.566476 113.566476 0 1 0 160.597333 160.597334l155.306667-155.306667a101.424762 101.424762 0 0 0 0-143.408762z m208.603428-225.816381a186.709333 186.709333 0 0 1 0 264.045714L765.561905 543.744l-51.736381-51.712 76.507428-76.507429a113.566476 113.566476 0 1 0-160.597333-160.597333l-155.306667 155.306667a101.424762 101.424762 0 0 0 0 143.408762l-51.736381 51.736381a174.567619 174.567619 0 0 1 0-246.857143l155.306667-155.306667a186.709333 186.709333 0 0 1 264.045714 0z&#34;/&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;首先這題 &lt;code&gt;nums&lt;/code&gt; 的範圍只到 16，因此先考慮&lt;strong&gt;枚舉&lt;/strong&gt;所有可能的分組。這裡使用&lt;strong&gt;Bitmask&lt;/strong&gt;作為如何分組的方法。Bitmask 的概念是利用一個數字代表一種狀態（或一種分組），通常是利用其二進制的數字中的每個 01 代表 &lt;strong&gt;選或不選某個數字&lt;/strong&gt;，以這題來說如果 &lt;code&gt;nums&lt;/code&gt; 長度是 &lt;code&gt;n&lt;/code&gt;，則所有狀態可以用 $0$ 到 $2^{n} - 1$ 來表示，其中每個數字的第 &lt;code&gt;i&lt;/code&gt; 個位元代表 &lt;code&gt;nums[i]&lt;/code&gt; 有沒有包含在這個數字所代表的分組中。舉例來說，若 &lt;code&gt;n = 4&lt;/code&gt;，則範圍是 $0$ 到 $15$，若拿 $11$ 來說, $(11)_{10}=(1011)_2$，代表第 $0, 2, 3$ 個元素是包含在這個分組中的（或是反過來看也可以）。透過這種方法可以確保每種狀態都有成功被枚舉且保證每種狀態只會被遍歷一次，避免因順序不同造成同一個狀態被訪問多次而消耗時間。&lt;/p&gt;</description>
     </item>
   </channel>
