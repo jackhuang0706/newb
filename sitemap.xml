@@ -2,48 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/newb/about/</loc>
+    <loc>https://jackhuang0706.github.io/newb/about/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/</loc>
+    <loc>https://jackhuang0706.github.io/newb/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/binary-indexed-tree/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/binary-indexed-tree/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/leetcode/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/leetcode/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/posts/leetcode-315/</loc>
+    <loc>https://jackhuang0706.github.io/newb/posts/leetcode-315/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/posts/</loc>
+    <loc>https://jackhuang0706.github.io/newb/posts/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/binary-search/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/binary-search/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/lazy-propagation/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/lazy-propagation/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/posts/leetcode-3116/</loc>
+    <loc>https://jackhuang0706.github.io/newb/posts/leetcode-3116/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/posts/leetcode-3721/</loc>
+    <loc>https://jackhuang0706.github.io/newb/posts/leetcode-3721/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/segment-tree/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/segment-tree/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/tags/bitmask-dp/</loc>
+    <loc>https://jackhuang0706.github.io/newb/tags/bitmask-dp/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/posts/leetcode-1681/</loc>
+    <loc>https://jackhuang0706.github.io/newb/posts/leetcode-1681/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newb/categories/</loc>
+    <loc>https://jackhuang0706.github.io/newb/categories/</loc>
   </url>
 </urlset>
