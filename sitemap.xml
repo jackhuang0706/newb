@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jackhuang0706.github.io/newb/about/</loc>
-    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
+    <loc>https://jackhuang0706.github.io/newb/tags/binary-indexed-tree/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackhuang0706.github.io/newb/</loc>
-    <lastmod>2026-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jackhuang0706.github.io/newb/tags/binary-indexed-tree/</loc>
     <lastmod>2026-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jackhuang0706.github.io/newb/tags/leetcode/</loc>
@@ -43,6 +40,8 @@
   </url><url>
     <loc>https://jackhuang0706.github.io/newb/posts/leetcode-1681/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jackhuang0706.github.io/newb/about/</loc>
   </url><url>
     <loc>https://jackhuang0706.github.io/newb/categories/</loc>
   </url>
